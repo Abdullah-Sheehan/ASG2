@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+svg.asg {
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  left: 38px;
+  top: 31px;
+}
+
+span.sign {
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 97.9%;
+  /* identical to box height, or 16px */
+  cursor: pointer;
+  text-align: center;
+
+  color: #ffffff;
+  background: #089d05;
+  box-shadow: #000 9px 7px;
+  transition: 0.5s;
+}
+span.sign:hover {
+  box-shadow: none;
+}
+span.home {
+  position: absolute;
+  width: 53px;
+  left: 1194px;
+  top: 115px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 97.9%;
+  /* identical to box height, or 16px */
+  text-transform: uppercase;
+  color: #000000;
+}
+span.login {
+  position: absolute;
+  width: 54px;
+  left: 1345px;
+  top: 115px;
+  bottom: 0px;
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 97.9%;
+  /* identical to box height, or 16px */
+
+  color: #000000;
+}
+span.aboutus {
+  position: absolute;
+  left: 1496px;
+  top: 115px;
+  bottom: 0px;
+  text-transform: uppercase;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 97.9%;
+  /* identical to box height, or 16px */
+
+  color: #000000;
+}
+span.sign1 {
+  left: 1746px;
+  top: 90px;
+}
+svg.hand {
+  position: absolute;
+  width: 556.3px;
+  height: 1062.54px;
+  left: 184px;
+  top: 187px;
+}
+svg.logo {
+  position: absolute;
+
+  animation: zoominout 5s infinite;
+}
+svg.logo:hover {
+  width: 115px;
+  height: 1024px;
+  left: 376px;
+  top: 165px;
+  animation: none;
+}
+@keyframes zoominout {
+  0% {
+    width: 274px;
+    height: 1062px;
+    left: 297px;
+    top: 165px;
+  }
+  50% {
+    width: 115px;
+    height: 1024px;
+    left: 376px;
+    top: 165px;
+  }
+  100% {
+    width: 274px;
+    height: 1062px;
+    left: 297px;
+    top: 165px;
+  }
+}
+svg.quality {
+  position: absolute;
+  width: 750px;
+  height: 300px;
+  left: 900px;
+  top: 350px;
+  font-family: Tahoma;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 95px;
+  line-height: 108.4%;
+  color: #089d05;
+}
+p.for {
+  position: absolute;
+  width: 1000px;
+  height: 44px;
+  left: 902px;
+  top: 730px;
+  font-family: Tahoma;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 108.4%;
+  color: #626262;
+}
+span.green {
+  color: #089d05;
+}
+p.access {
+  position: absolute;
+  width: 1000px;
+  height: 27px;
+  left: 905px;
+  top: 950px;
+  font-family: Tahoma;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 108.4%;
+  color: #626262;
+}
+span.sign2{
+  left: 905px;
+  top: 1047px;
+}
