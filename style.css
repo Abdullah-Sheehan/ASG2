@@ -8,7 +8,7 @@ body {
   width: 100%;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -105,7 +105,6 @@ svg.hand {
 }
 svg.logo {
   position: absolute;
-
   animation: zoominout 5s infinite;
 }
 svg.logo:hover {
@@ -113,7 +112,21 @@ svg.logo:hover {
   height: 1024px;
   left: 376px;
   top: 165px;
-  animation: none;
+  animation: zoomx 1s 1;
+}
+@keyframes zoomx {
+  0% {
+    width: 274px;
+    height: 1062px;
+    left: 297px;
+    top: 165px;
+  }
+  100% {
+    width: 115px;
+    height: 1024px;
+    left: 376px;
+    top: 165px;
+  }
 }
 @keyframes zoominout {
   0% {
@@ -177,7 +190,7 @@ p.access {
   line-height: 108.4%;
   color: #626262;
 }
-span.sign2{
+span.sign2 {
   left: 905px;
   top: 1047px;
 }
