@@ -104,8 +104,12 @@ svg.hand {
   top: 187px;
 }
 svg.logo {
+  width: 274px;
+  height: 1062px;
+  left: 297px;
+  top: 165px;
   position: absolute;
-  animation: zoominout 5s infinite;
+  animation: zoominout 5s 1;
 }
 svg.logo:hover {
   width: 115px;
@@ -130,17 +134,12 @@ svg.logo:hover {
 }
 @keyframes zoominout {
   0% {
-    width: 274px;
-    height: 1062px;
-    left: 297px;
-    top: 165px;
-  }
-  50% {
     width: 115px;
     height: 1024px;
     left: 376px;
     top: 165px;
   }
+
   100% {
     width: 274px;
     height: 1062px;
