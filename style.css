@@ -104,35 +104,21 @@ svg.hand {
   top: 187px;
 }
 svg.logo {
+  transition: 2s;
   width: 274px;
   height: 1062px;
   left: 297px;
   top: 165px;
   position: absolute;
-  animation: zoominout 5s 1;
+  animation: zoom-entry 5s 1;
 }
 svg.logo:hover {
   width: 115px;
   height: 1024px;
   left: 376px;
   top: 165px;
-  animation: zoomx 1s 1;
 }
-@keyframes zoomx {
-  0% {
-    width: 274px;
-    height: 1062px;
-    left: 297px;
-    top: 165px;
-  }
-  100% {
-    width: 115px;
-    height: 1024px;
-    left: 376px;
-    top: 165px;
-  }
-}
-@keyframes zoominout {
+@keyframes zoom-entry {
   0% {
     width: 115px;
     height: 1024px;
